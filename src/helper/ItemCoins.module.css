@@ -1,0 +1,203 @@
+.container{
+
+    display: flex;
+    align-items : center ;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}   
+
+.container:nth-child(odd){
+
+    background-color: #ffd9004d;
+
+    
+}
+
+.container:nth-child(1){
+
+    border-radius: 1rem 1rem 0 0;
+}
+
+.container:last-child{
+
+    border-radius: 0 0 1rem 1rem;
+}
+
+
+.container .column1 {
+
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 250px;
+
+}
+
+
+.container .column1 img {
+
+    width: 50px;
+    margin-right: 1.2rem;
+    border-radius: 50%;
+}
+
+
+.container .symbol {
+
+    width: 80px;
+}
+
+.container .current_price{
+
+    width: 100px;
+}
+
+
+
+.greenChange {
+
+    color: green;
+    width: 80px;
+}
+
+
+.redChange {
+
+    color: red;
+    width: 80px;
+}
+
+.container span:nth-child(4){
+
+    font-weight: bold ;
+}
+
+
+
+@media(max-width : 840px){
+
+    .container {
+
+        font-size: 0.9rem;
+    }
+
+    .container .column1 {
+
+        width: 150px;
+        
+    }
+    
+    
+    .container .column1 img {
+    
+        width: 30px;
+        margin-right: 0.8rem;
+    }
+    
+    
+    .container .symbol {
+    
+        width: 60px;
+    }
+    
+    .container .current_price{
+    
+        width: 80px;
+    }
+    
+    
+    
+    .greenChange {
+    
+        width: 60px;
+    }
+    
+    
+    .redChange {
+    
+        width: 60px;
+    }
+}
+
+@media(max-width : 660px){
+
+    .container {
+
+        font-size: 0.7rem;
+        padding: 1rem;
+    }
+
+    .container .column1 {
+
+        width: 110px;
+        
+    }
+    
+    
+    .container .symbol {
+    
+        width: 50px;
+    }
+    
+    .container .current_price{
+    
+        width: 60px;
+    }
+    
+    
+    
+    .greenChange {
+    
+        width: 40px;
+    }
+    
+    
+    .redChange {
+    
+        width: 40px;
+    }
+}
+
+@media(max-width : 520px){
+
+    .container {
+
+        font-size: 0.6rem;
+    }
+
+    .container .column1 img {
+
+        margin-right: 0.6rem;
+
+    }
+
+    .container .column1 {
+
+        width: 90px;
+        
+    }
+    
+    
+    .container .symbol {
+    
+        width: 30px;
+    }
+    
+    .container .current_price{
+    
+        width: 60px;
+    }
+    
+    
+    
+    .greenChange {
+    
+        width: 30px;
+    }
+    
+    
+    .redChange {
+    
+        width: 30px;
+    }
+}
